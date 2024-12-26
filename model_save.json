@@ -1,0 +1,129 @@
+{
+  "svc_model": {
+    "azusa": {
+      "name": "白洲梓",
+      "introduction": "游戏：蔚蓝档案 白洲梓的声音模型",
+      "model_name": "BlueAchieve_G_387200.pth",
+      "config_name": "BlueAchieve.json",
+      "cluster_model": {
+        "feature_and_index": "",
+        "k_means": ""
+      },
+      "diffusion_model_name": "",
+      "diffusion_config_name": "",
+      "speaker_name": "\u6893"
+    },
+    "mika": {
+      "name": "圣园未花",
+      "introduction": "游戏：蔚蓝档案 圣园未花的声音模型",
+      "model_name": "BlueAchieve_G_387200.pth",
+      "config_name": "BlueAchieve.json",
+      "cluster_model": {
+        "feature_and_index": "",
+        "k_means": ""
+      },
+      "diffusion_model_name": "",
+      "diffusion_config_name": "",
+      "speaker_name": "\u672a\u82b1"
+    },
+    "aris": {
+      "name": "爱丽丝",
+      "introduction": "游戏：蔚蓝档案 爱丽丝的声音模型",
+      "model_name": "BlueAchieve_G_387200.pth",
+      "config_name": "BlueAchieve.json",
+      "cluster_model": {
+        "feature_and_index": "",
+        "k_means": ""
+      },
+      "diffusion_model_name": "",
+      "diffusion_config_name": "",
+      "speaker_name": "\u7231\u4e3d\u4e1d"
+    },
+    "Liv": {
+      "name": "丽芙",
+      "introduction": "游戏：战双帕弥什 丽芙的声音模型",
+      "model_name": "Liv_G_19600.pth",
+      "config_name": "Liv_config.json",
+      "cluster_model": {
+        "feature_and_index": "Liv_feature_and_index.pkl",
+        "k_means": ""
+      },
+      "diffusion_model_name": "liv_model_10000.pt",
+      "diffusion_config_name": "liv_diffusion.yaml",
+      "speaker_name": "Liv"
+    },
+    "Lee": {
+      "name": "里",
+      "introduction": "游戏：战双帕弥什 里的声音模型",
+      "model_name": "Lee_G_28800.pth",
+      "config_name": "Lee_config.json",
+      "cluster_model": {
+        "feature_and_index": "Lee_feature_and_index.pkl",
+        "k_means": ""
+      },
+      "diffusion_model_name": "Lee_model_8000.pt",
+      "diffusion_config_name": "Lee_diffusion.yaml",
+      "speaker_name": "Lee"
+    },
+    "Lucia": {
+      "name": "露西亚",
+      "introduction": "游戏：战双帕弥什 露西亚的声音模型",
+      "model_name": "Lucia_G_28800.pth",
+      "config_name": "Lucia_config.json",
+      "cluster_model": {
+        "feature_and_index": "Lucia_feature_and_index.pkl",
+        "k_means": ""
+      },
+      "diffusion_model_name": "Lucia_model_4000.pt",
+      "diffusion_config_name": "Lucia_diffusion.yaml",
+      "speaker_name": "Lucia"
+    },
+    "LuChen": {
+      "name": "陆沉",
+      "introduction": "游戏：光与夜之恋 陆沉的声音模型",
+      "model_name": "LuChen_G_20000.pth",
+      "config_name": "LuChen_config.json",
+      "cluster_model": {
+        "feature_and_index": "LuChen_feature_and_index.pkl",
+        "k_means": ""
+      },
+      "diffusion_model_name": "",
+      "diffusion_config_name": "",
+      "speaker_name": "LuChen"
+    }
+  },
+
+  "tts_model": {
+    "azusa": {
+      "name": "白洲梓",
+      "introduction": "游戏：蔚蓝档案 白洲梓的声音模型",
+      "SoVIT_weight": "G:\\Artificial-Intelligence\\AI-voice-synthesis\\GPT-SoVITS\\GPT-SoVITS\\SoVITS_weights\\Azusa_e15_s495.pth",
+      "GPT_weight": "G:\\Artificial-Intelligence\\AI-voice-synthesis\\GPT-SoVITS\\GPT-SoVITS\\GPT_weights\\Azusa-e10.ckpt",
+      "emotions": {
+        "平和的": {
+          "path": "G:\\Artificial-Intelligence\\AI-voice-synthesis\\GPT-SoVITS\\GPT-SoVITS\\wav\\azusa\\Azusa_Peaceful.wav",
+          "prompt_text": "この力をどういう風に使うか、先生に決めてほしい。",
+          "prompt_language": "日文"
+        },
+        "害羞的": {
+          "path": "",
+          "prompt_text": "",
+          "prompt_language": "日文"
+        }
+      }
+    },
+    "mika": {
+      "name": "爱丽丝",
+      "introduction": "游戏：蔚蓝档案 爱丽丝的声音模型",
+      "SoVIT_weight": "",
+      "GPT_weight": "",
+      "emotions": {
+        "平和的": {
+          "path": "",
+          "prompt_text": "",
+          "prompt_language": "日文"
+        }
+      }
+    }
+  }
+}
