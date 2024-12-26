@@ -1,1 +1,2 @@
 用MSST和so-vits-svc和gpt-sovits写的一个自动合成AI音乐的东西，自用
+因为还要给老师看我就不设置私有了
